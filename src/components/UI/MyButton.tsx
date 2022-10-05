@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import style from './MyButton.module.scss'
 
 interface MyButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   title: string
@@ -6,7 +7,7 @@ interface MyButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
 
 export const MyButton: FC<MyButtonProps> = ({ title, ...props }) => {
   return (
-    <button className='rounded-sm font-bold px-4 py-1 bg-white' {...props}>
+    <button className={style.root} {...props}>
       {title}
     </button>
   )

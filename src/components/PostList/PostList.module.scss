@@ -1,0 +1,23 @@
+.wrapper {
+  @apply overflow-x-hidden overflow-y-auto h-[600px];
+}
+
+.table {
+  @apply table-auto border-collapse border border-slate-500 w-full text-center h-[600px];
+}
+
+.thead {
+  @apply bg-[#334155] text-white;
+}
+
+.tbody {
+  @apply bg-[#1e293b] text-[#8b9aaf];
+}
+
+.td {
+  @apply font-medium border border-slate-600;
+}
+
+.th {
+  @apply border border-slate-600;
+}

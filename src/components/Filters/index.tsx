@@ -31,6 +31,7 @@ export const Filters: FC<FiltersProps> = ({
     { title: 'Год выпуска', value: 'modeldata' },
     { title: 'Модель', value: 'model' },
     { title: 'Количество', value: 'count' },
+    { title: 'По умолчанию', value: 'id' },
   ]
 
   const limit: number[] = [15, 25, 50, 75, 100]
