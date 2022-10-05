@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { IProduct } from '../../models/models'
-import style from './PostList.module.scss'
+import style from './index.module.css'
 
 interface PostListProps {
   data: IProduct[] | undefined

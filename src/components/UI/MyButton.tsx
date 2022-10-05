@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import style from './MyButton.module.scss'
+import style from './MyButton.module.css'
 
 interface MyButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   title: string
